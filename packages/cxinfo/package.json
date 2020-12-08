@@ -1,14 +1,14 @@
 {
   "name": "cxinfo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "信息展示",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cxutil": "^1.0.5",
-    "axios": "^0.21.0"
+    "axios": "^0.21.0",
+    "cxutil": "^1.0.6"
   },
   "keywords": [],
   "author": "",
