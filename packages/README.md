@@ -34,3 +34,14 @@ remark:
     方案二
     添加 axios 开源库依赖
     lerna add axios --scope=CXInfo
+
+
+### npm 镜像地址
+ 查询当前镜像地址
+ npm get registry
+ 修改镜像地址
+ npm config set registry ${path}
+ 原始镜像地址
+ https://registry.npmjs.org/
+ 淘宝镜像地址
+ http://registry.npm.taobao.org/
