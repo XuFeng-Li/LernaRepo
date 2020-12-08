@@ -12,29 +12,30 @@ remark:
   4.1 cd 到package文件夹下
   4.2 创建项目文件并cd到根目录
   ```
-  // 创建CXInfo文件夹并cd 到其根目录 
-  mkdir CXInfo && $_
+  // 创建cxinfo文件夹并cd 到其根目录 
+  mkdir cxinfo && $_
   ```
   4.3 创建项目
   ```
     npm init -y
   ```
-  4.4 使用相同的操作创建CXUtil
+  4.4 使用相同的操作创建cxutil
 5、添加依赖
     方案一：
-  CXInfo 的包 依赖 CXUtil
-   修改 CXInfo/package.json
+  cxinfo 的包 依赖 cxutil
+   修改 cxinfo/package.json
    ```
         //添加如下内容
         "dependencies": {
-            "CXUtil":"^1.0.0"
+            "cxutil":"^1.0.0"
         }
     ```
     然后运行 lerna bootstrap
     方案二
     添加 axios 开源库依赖
-    lerna add axios --scope=CXInfo
+    lerna add axios --scope=cxinfo
 
+6、发包 lerna publish
 
 ### npm 镜像地址
  查询当前镜像地址
@@ -45,3 +46,11 @@ remark:
  https://registry.npmjs.org/
  淘宝镜像地址
  http://registry.npm.taobao.org/
+
+
+### Question
+
+1、初始创建时，包名中包含大写字符，执行 lerna publish 报错：E400 "" is invalid for new packages，改成小写
+字符后发包成功。包名不能包含大写字符？
+
+
