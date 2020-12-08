@@ -1,6 +1,6 @@
 {
   "name": "CXInfo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "信息展示",
   "main": "index.js",
   "scripts": {
