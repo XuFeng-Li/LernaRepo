@@ -1,13 +1,13 @@
 {
   "name": "CXInfo",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "信息展示",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "CXUtil": "^1.0.2",
+    "CXUtil": "^1.0.5",
     "axios": "^0.21.0"
   },
   "keywords": [],
