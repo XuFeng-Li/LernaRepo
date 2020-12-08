@@ -1,5 +1,5 @@
 {
-  "name": "CXUtil",
+  "name": "cxutil",
   "version": "1.0.5",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "87ec2ffb0d9edd8590d5e3b9b505de7bc77b7846"
+  "gitHead": "52384805573cd4d427a7aa322f91fecb97c81251"
 }

@@ -1,4 +1,4 @@
-const {API,API_VERSION} = require('CXUtil');
+const {API,API_VERSION} = require('packages/cxutil');
 const axios = require('axios');
 
 const getPopularImg = () => axios.get(API);

@@ -1,5 +1,5 @@
 {
-  "name": "CXInfo",
+  "name": "cxinfo",
   "version": "1.0.5",
   "description": "信息展示",
   "main": "index.js",
@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "CXUtil": "^1.0.5",
+    "cxutil": "^1.0.5",
     "axios": "^0.21.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "87ec2ffb0d9edd8590d5e3b9b505de7bc77b7846"
+  "gitHead": "52384805573cd4d427a7aa322f91fecb97c81251"
 }
