@@ -1,6 +1,6 @@
 {
   "name": "cxinfo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "信息展示",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.21.0",
-    "cxutil": "^1.0.7"
+    "cxutil": "^1.0.8"
   },
   "keywords": [],
   "author": "",
